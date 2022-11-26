@@ -5,3 +5,9 @@
     flex-direction: column;
     gap: 80px;
 }
+
+@media screen and (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+    }
+}
