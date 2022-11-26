@@ -1,0 +1,18 @@
+.place__paragraph {
+    max-width: 484px;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+
+    color: #FFFFFF;
+}
+
+.place__paragraph:nth-child(2) {
+    margin-top: 26px;
+}
+

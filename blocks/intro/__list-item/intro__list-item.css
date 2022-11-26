@@ -1,0 +1,11 @@
+.intro__list-item {
+    list-style: none;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
