@@ -8,10 +8,9 @@
     position: relative;
     overflow: hidden;
     z-index: 3;
-    transition: background-color linear 0.5s;
 }
 
-.cover__background:before {
+.cover__background::before {
     background-color: #2A2C2F;
     opacity: 0.3;
     content: "";
@@ -19,9 +18,10 @@
     width: 100%;
     height: 100%;
     z-index: -1;
+    transition: opacity linear 0.3s;
 }
 
-.cover__background:hover {
+.cover__background:hover::before {
     background-color: #2A2C2F;
     opacity: 0.8;
 }
