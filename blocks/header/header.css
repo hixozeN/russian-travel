@@ -7,22 +7,14 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
-    .header {
-        max-width: 928px;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .header {
-        max-width: 720px;
         padding: 28px 24px 0 24px;
     }
 }
 
 @media screen and (max-width: 428px) {
     .header {
-        max-width: 390px;
         padding: 16px 16px 0 16px;
     }
 }

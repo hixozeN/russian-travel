@@ -3,15 +3,8 @@
     align-self: end;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 351px) {
     .place__website {
-        max-width: 352px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__website {
-        max-width: 288px;
-        margin-left: 16px;
+        padding: 0 16px;
     }
 }

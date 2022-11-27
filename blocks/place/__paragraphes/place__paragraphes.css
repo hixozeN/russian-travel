@@ -2,30 +2,17 @@
     max-width: 484px;
 }
 
-@media screen and (max-width: 1024px) {
-    .place__paragraphes {
-        max-width: 456px;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .place__paragraphes {
-        max-width: 352px;
         font-weight: 400;
         font-size: 16px;
         line-height: 163%;
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 667px) {
+@media screen and (max-width: 351px) {
     .place__paragraphes {
-        max-width: 390px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__paragraphes {
-        max-width: 288px;
-        margin-left: 16px;
+        padding: 0 16px;
     }
 }
