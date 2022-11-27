@@ -16,6 +16,12 @@
     }
 }
 
+@media screen and (max-width: 428px) {
+    .place {
+        gap: 32px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place {
         gap: 32px;

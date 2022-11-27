@@ -9,6 +9,13 @@
     }
 }
 
+@media screen and (max-width: 428px) {
+    .place__website {
+        max-width: 288px;
+        margin-left: 16px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__website {
         max-width: 288px;

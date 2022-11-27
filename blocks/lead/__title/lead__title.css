@@ -8,6 +8,14 @@
     padding: 0;
 }
 
+@media screen and (max-width: 428px) {
+    .lead__title {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .lead__title {
         font-weight: 900;

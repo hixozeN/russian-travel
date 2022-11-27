@@ -12,6 +12,15 @@
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 428px) {
+    .cover__subtitle {
+        margin-top: 16px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover__subtitle {
         margin-top: 16px;
