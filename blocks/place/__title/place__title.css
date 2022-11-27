@@ -9,6 +9,8 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
+    /* Выравнивание текста по центру не по макету, но так выглядил лучше, особенно в совокупности с закруглением */
+    text-align: center;
 
     color: #FFFFFF;
 }
@@ -30,11 +32,13 @@
 
 @media screen and (max-width: 428px) {
     .place__title {
-        max-width: 288px;
+        max-width: 390px;
         margin-left: 16px;
         font-weight: 900;
         font-size: 32px;
         line-height: 35px;
+        /* Возвращаем центровку к макетному варианту для нормального отображения на узких экранах */
+        text-align: start;
     }
 }
 
@@ -45,5 +49,7 @@
         font-weight: 900;
         font-size: 32px;
         line-height: 35px;
+        /* Возвращаем центровку к макетному варианту для нормального отображения на узких экранах */
+        text-align: start;
     }
 }

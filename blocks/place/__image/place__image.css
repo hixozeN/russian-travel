@@ -1,6 +1,8 @@
 .place__image {
     width: 460px;
     height: 460px;
+    /* Закругление не по макету, но так намного симпатичнее */
+    border-radius: 10%; 
 }
 
 @media screen and (max-width: 1024px) {

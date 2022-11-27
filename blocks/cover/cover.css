@@ -29,7 +29,7 @@
 @media screen and (max-width: 428px) {
     .cover {
         margin: 66px auto 0 auto;
-        max-width: 390px;
+        max-width: 428px;
         height: 200px;
     }
 }
