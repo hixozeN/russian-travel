@@ -3,13 +3,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .place__paragraph {
+    .place__paragraphes {
         max-width: 456px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .place__paragraph {
+    .place__paragraphes {
         max-width: 352px;
         font-weight: 400;
         font-size: 16px;
@@ -17,15 +17,14 @@
     }
 }
 
-@media screen and (max-width: 428px) {
-    .place__paragraph {
+@media screen and (min-width: 321px) and (max-width: 667px) {
+    .place__paragraphes {
         max-width: 390px;
-        margin-left: 16px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .place__paragraph {
+    .place__paragraphes {
         max-width: 288px;
         margin-left: 16px;
     }

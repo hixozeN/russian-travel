@@ -15,14 +15,6 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 428px) {
-    .footer__link {
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 24px;
-    }
-}
-
 @media screen and (max-width: 320px) {
     .footer__link {
         font-weight: 400;
