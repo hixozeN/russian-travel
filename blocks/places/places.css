@@ -11,3 +11,18 @@
         max-width: 928px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .places {
+        max-width: 720px;
+        margin: 88px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        max-width: 320px;
+        margin: 64px auto 0 auto;
+        gap: 50px;
+    }
+}

@@ -13,3 +13,15 @@
 
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        margin: 8px 0 0 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__caption {
+        margin: 8px 0 0 16px;
+    }
+}

@@ -11,3 +11,18 @@
  
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 768px) {
+    .intro__title {
+        margin: 88px 0 40px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__title {
+        margin: 64px 0 40px 0;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

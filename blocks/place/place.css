@@ -1,5 +1,23 @@
 .place {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 48px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        gap: 48px 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        gap: 32px;
+    }
 }
