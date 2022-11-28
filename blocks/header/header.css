@@ -7,21 +7,14 @@
     align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .header {
         padding: 28px 24px 0 24px;
     }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 767px) {
     .header {
-        padding: 16px 16px 0 16px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .header {
-        max-width: 288px;
         padding: 16px 16px 0 16px;
     }
 }

@@ -3,7 +3,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 1.12;
+    color: #FFF;
     transition: opacity linear 0.3s;
 }
 
@@ -15,6 +16,6 @@
     .footer__link {
         font-weight: 400;
         font-size: 24px;
-        line-height: 24px;
+        line-height: 1;
     }
 }
