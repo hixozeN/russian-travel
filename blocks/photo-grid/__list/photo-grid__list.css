@@ -13,19 +13,13 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .photo-grid__list {
         gap: 16px;
     }
 }
 
-@media screen and (max-width: 428px) {
-    .photo-grid__list {
-        gap: 12px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .photo-grid__list {
         gap: 12px;
     }

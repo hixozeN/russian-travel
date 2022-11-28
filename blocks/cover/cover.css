@@ -4,10 +4,6 @@
     height: 740px;
     background-image: url('../../images/cover-trains.jpg');
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
     background-size: cover;
 }
 
