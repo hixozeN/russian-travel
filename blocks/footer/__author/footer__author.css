@@ -1,14 +1,14 @@
 .footer__author {
-    margin: 0;
-    padding: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.14;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 @media screen and (max-width: 320px) {
-    .footer__author {
-        line-height: 1;
-    }    
+  .footer__author {
+    line-height: 1;
+  }
 }

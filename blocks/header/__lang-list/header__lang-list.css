@@ -1,8 +1,8 @@
 .header__lang-list {
-    list-style: none;
-    display: flex;
-    align-self: flex-end;
-    margin: 0;
-    padding: 0;
-    gap: 18px;
+  list-style: none;
+  display: flex;
+  align-self: flex-end;
+  margin: 0;
+  padding: 0;
+  gap: 18px;
 }
