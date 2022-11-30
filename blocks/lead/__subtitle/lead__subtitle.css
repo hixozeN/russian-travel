@@ -8,12 +8,17 @@
   padding: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead__subtitle {
     margin: 32px 64px 56px 64px;
-    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
     font-size: calc(16px + 14 * (100vw - 320px) / 448);
-    line-height: calc(20px + 14 * (100vw - 320px) / 448);
+    line-height: 1.2;
   }
 }
 
