@@ -1,14 +1,6 @@
 .place__paragraphes {
-  max-width: 484px;
-}
-
-
-@media screen and (max-width: 768px) {
-  .place__paragraphes {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 163%;
-  }
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 351px) {
