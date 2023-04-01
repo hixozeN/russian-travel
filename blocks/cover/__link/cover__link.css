@@ -1,4 +1,6 @@
 .cover__link {
+  margin: 0 auto;
+  max-width: 95%;
   min-height: 740px;
   text-decoration: none;
   color: #FFF;
@@ -12,21 +14,22 @@
   align-items: center;
   position: relative;
   z-index: 3;
+  border-radius: 15px;
 }
 
 .cover__link::before {
   background-color: #2A2C2F;
-  opacity: 0.3;
+  opacity: 0.5;
   content: "";
   position: absolute;
   width: 100%;
   height: 100%;
   z-index: -1;
-  transition: opacity linear 0.3s;
+  transition: opacity ease-out 0.2s;
 }
 
 .cover__link:hover::before {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {

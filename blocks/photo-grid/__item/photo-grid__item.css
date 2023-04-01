@@ -1,4 +1,40 @@
 .photo-grid__item {
   margin: 0;
   padding: 0;
+  position: relative;
+  list-style: none;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.photo-grid__item-overlay {
+  background-color: #2A2C2F;
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: opacity .3s linear;
+}
+
+@media (pointer: fine) {
+  .photo-grid__item-overlay:hover {
+    opacity: 0.8;
+  }
+}
+
+.photo-grid__item-caption {
+  padding: 0 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
 }
